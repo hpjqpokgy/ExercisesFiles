@@ -35,5 +35,43 @@ public class Main {
         // result = result / 3
         result /= 3; // 30 / 3 = 10
         System.out.println("30 / 3 = " + result);
+
+        boolean isAlien = false;
+        if (isAlien == false) {
+            System.out.println("it is not an alien!");
+            System.out.println("And I am scared of alien");
+        }
+
+        int topScore = 80;
+        if (topScore < 100) {
+            System.out.println("You got the high score");
+        }
+
+        int secondTopScore = 60;
+        if ((topScore > secondTopScore) && (topScore < 100)) {
+            System.out.println("Greater than top Score and less than 100");
+        }
+
+        if ((topScore > 90) || (secondTopScore <= 90)) {
+            System.out.println("either or both of the condition are true");
+        }
+
+        int newValue = 50;
+        if (newValue == 50) {
+            System.out.println("this is true");
+        }
+
+        boolean isCar = false;
+        if (isCar == false) {
+            System.out.println("this is not supposed to happen");
+        }
+
+        isCar = true;
+        boolean wasCar = (isCar) ? true : false;
+        if (wasCar) {
+            System.out.println("wasCar is true");
+        }
+
+
     }
 }
