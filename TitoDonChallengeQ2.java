@@ -20,6 +20,7 @@ public class Main {
             
         }
         input.close();
+	    Arrays.sort(names);
 
         System.out.println("Your friends are");
         for (int friend = 0; friend < length; friend++){
